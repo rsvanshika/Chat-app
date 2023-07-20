@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/000/441/054/original/vector-chat-icon.jpg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat APP</title>
+</head>
+<body>
+    <!-- ----form for user to join chatroom(initially it was hidden)----- -->
+    <form action="" class="form-username">
+        <h1>Join Chatroom</h1>
+        <p>Username</p>
+        <input type="text" name="" id="username-input" placeholder="Username">
+        <button id="join-btn" type="submit">Join Chat</button>
+    </form>
+
+    <div class="chatroom-container">
+        <div class="chatroom-header">
+              Chatroom
+        </div>
+        <div class="messages" id="message-container">
+            <div class="message recieved">Hey</div>
+            <div class="message sent">Hey</div>
+            <div class="message sent">how are you</div>
+            <div class="message recieved">I am goood</div>
+        </div>
+
+        <div>
+            <input type="text" placeholder="Enter message" id="message-input">
+            <button id="send-btn">Send</button>
+        </div>
+  
+    </div>
+    
+
+    <script src="script.js"> </script>
+</body>
+</html>

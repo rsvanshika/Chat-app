@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* --form--- */
+.form-username{
+    
+    width:80%;
+    margin:auto;
+    border:1px solid black;
+    padding:0.25rem 0.5rem; 
+
+
+}
+
+.font-username p{
+    font-weight:300;
+    font-size: 0.8rem;
+    
+}
+#username-input{
+    border:1px solid black;
+    padding:.5rem 1.5rem;
+    color:black;
+    width:90%;
+    
+
+
+}
+#join-btn{
+    background-color: black;
+    color:white;
+    padding: 0.5rem 1.5rem;
+    margin-top: 1rem;
+    border:0px;
+    cursor:point;
+}
+/* ----chatroom---- */
+.chatroom-container{
+    display:none;
+    /* hide it initially */
+    height:100vh;
+    width:100;
+}
+.chatroom-header{
+    background-color: black;
+    color:white;
+    padding:0.5rem;
+    font-size:2rem;
+    text-align: center;
+}
+.messages{
+    display:flex;
+    flex-direction: column;
+    height:85vh;
+}
+.message{
+    background-color: #e1e1e1;
+    /* fit content take the width of the text */
+    width:fit-content; 
+    padding:0.5rem;
+    margin:0.5rem;
+    border-radius: .5rem;
+
+}
+#send-btn{
+    background-color: black;
+    color:white;
+    width:10%;
+    padding: 0.4rem 0.5rem;
+    margin-top: 1rem;
+    border:0px;
+    cursor:point;
+}
+
+/*align item vs align self-> The only difference being, align Items applies 
+the alignment on to it's children while alignSelf applies the alignment to itself.*/
+ /* to change the direction of sent msg */
+.sent{
+    align-self:flex-end;
+    background-color: rgb(12, 95, 139);
+   
+}
+
+#message-input{
+    width:70%;
+    padding: 0.25rem 0.5rem;
+    margin-left:.25rem;
+}
